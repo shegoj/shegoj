@@ -10,7 +10,7 @@ resource "aws_instance" "via_jenkins"  {
 
     ami           = "ami-06ce3edf0cff21f07"
     instance_type = "t2.micro"
-    count         = 3
+    count         = 1
     key_name      = "devopsmodule"
 
     tags = {
