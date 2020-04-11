@@ -14,7 +14,7 @@ resource "aws_instance" "via_jenkins"  {
     key_name      = "devopsmodule"
 
     tags = {
-        Name ="For_Jenkins"
+        Name ="Jenkins works"
     }
 }
 
