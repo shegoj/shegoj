@@ -21,7 +21,7 @@ pipeline {
          steps {
             echo 'terraform apply'
             sh '''
-            terraform apply -auto-approve
+            terraform destroy -auto-approve
             '''
          }
       }
